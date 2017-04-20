@@ -4,7 +4,7 @@
 
 ## Installation
 
-Install `duo_web_client` from Github: `npm install https://www.github.com/duosecurity/duo_web_client/master.zip --save`
+Install `duo_web_sdk` from Github: `npm install https://www.github.com/duosecurity/duo_web_sdk/master.zip --save`
 
 ## Usage
 
@@ -13,9 +13,9 @@ with the signed request passed from the server. The user would authenticate usin
 submit the signed response to your backend for verification. 
 
 ```js
-import DuoClient from 'duo_web_client';
+import DuoWebSDK from 'duo_web_sdk';
 
-DuoClient.init({
+DuoWebSDK.init({
   iframe: "duo-frame",
   host: host,
   sig_request: sigRequestPassedFromServer,

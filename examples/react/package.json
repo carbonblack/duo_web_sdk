@@ -5,7 +5,7 @@
   "dependencies": {
     "body-parser": "1.17.1",
     "duo_web": "^1.0.2",
-    "duo_web_client": "https://www.github.com/duosecurity/duo_web_client/master.zip",
+    "duo_web_sdk": "https://www.github.com/duosecurity/duo_web_sdk/master.zip",
     "express": "4.15.2",
     "react": "15.5.3",
     "react-dom": "15.5.3",

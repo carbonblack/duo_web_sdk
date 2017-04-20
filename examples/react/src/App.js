@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import 'whatwg-fetch'
-import DuoClient from 'duo_web_client';
+import DuoWebSDK from 'duo_web_sdk';
 
 const STATE_AUTH_PASSED = 'STATE_AUTH_PASSED';
 const STATE_AUTH_FAILED = 'STATE_AUTH_FAILED';
@@ -27,7 +27,7 @@ class App extends Component {
     // initialize the frame with the parameters
     // we have retrieved from the server
 
-    DuoClient.init({
+    DuoWebSDK.init({
       iframe: "duo-frame",
       host: json.host,
       sig_request: json.sigRequest,

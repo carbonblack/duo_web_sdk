@@ -5,7 +5,7 @@ initialize a Duo Authentication Prompt and sends the signed response to the back
 
 ## Configuration
 
-In `server/app.js`, modify the object with your Duo integration configuration:
+In `server/creds.js`, modify the object with your Duo integration configuration:
 
 ```js
 {
