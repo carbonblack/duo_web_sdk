@@ -6,8 +6,8 @@
 
 Install `duo_web_sdk` from Github: 
 
-With NPM: `npm install https://github.com/duosecurity/duo_web_sdk.git --save`
-With yarn: `yarn add https://github.com/duosecurity/duo_web_sdk.git`
+- With NPM: `npm install https://github.com/duosecurity/duo_web_sdk.git --save`
+- With yarn: `yarn add https://github.com/duosecurity/duo_web_sdk.git`
 
 ## Usage
 
