@@ -24,7 +24,7 @@ app.get('/frame_data', (req, res) => {
 
   // generate the signed request with the client's username
   const sigRequest = Duo.sign_request(creds.ikey, creds.skey, creds.akey, user);
-  res.json({sigRequest, host});
+  res.json({sigRequest, host: creds.host});
 });
 
 

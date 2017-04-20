@@ -1,10 +1,13 @@
 # Overview
 
-**duo_web_client** - Provides the [Duo Web Javascript](https://duo.com/docs/duoweb) in an ES6 module format that can be installed via npm and bundled into your web application.
+**duo_web_sdk** - Provides the [Duo Web Javascript](https://duo.com/docs/duoweb) in an ES6 module format that can be installed via npm/yarn and bundled into your web application.
 
 ## Installation
 
-Install `duo_web_sdk` from Github: `npm install https://www.github.com/duosecurity/duo_web_sdk/master.zip --save`
+Install `duo_web_sdk` from Github: 
+
+With NPM: `npm install https://github.com/duosecurity/duo_web_sdk.git --save`
+With yarn: `yarn add https://github.com/duosecurity/duo_web_sdk.git`
 
 ## Usage
 
