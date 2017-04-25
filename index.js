@@ -330,7 +330,7 @@
         iframe.src = [
             'https://', host, '/frame/web/v1/auth?tx=', duoSig,
             '&parent=', encodeURIComponent(document.location.href),
-            '&v=2.5'
+            '&v=2.5.0'
         ].join('');
 
         // listen for the 'message' event
